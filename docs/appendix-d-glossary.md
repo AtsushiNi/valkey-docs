@@ -23,6 +23,7 @@
 | エンドポイント | endpoint | 接続先のアドレス（DNS 名） | 08 章・14 章 |
 | キー | key | 値を取り出すための名前 | 02 章 |
 | キー設計書 | — | キーのパターン、型、中身などを記録した文書（本資料での呼び方） | 05 章 |
+| キーバリューストア | key-value store | キーと値の組を保存し、キーを指定して読み書きするデータベース | 01 章 |
 | クラスター | cluster | データを複数のシャードに分けて持つ構成 | 13 章 |
 | クラスターモード | cluster mode | クラスターとして動かすかどうかの設定 | 13 章・14 章 |
 | 計算量 | time complexity | データの量に対して、処理の時間がどう増えるか（O(1)、O(N) など） | 02 章 |
@@ -60,6 +61,7 @@
 | 有効期限 | TTL / expiration | キーが自動で削除されるまでの時間 | 02 章 |
 | ECPU | ElastiCache Processing Unit | ElastiCache Serverless の、リクエストの量の単位。転送するデータ 1 KB あたり 1 ECPU | 14 章 |
 | listpack / hashtable / skiplist / intset | — | データ型の内部のエンコーディングの名前 | 03 章・04 章 |
+| NoSQL | — | RDB 以外のデータベースの総称（キーバリューストア、ドキュメントデータベースなど） | 01 章 |
 | RDB スナップショット | RDB snapshot | ある時点のデータ全体を書き出したファイル（リレーショナルデータベースの RDB とは無関係） | 12 章 |
 | RESP2 / RESP3 | — | Valkey とクライアントの間の通信の方式 | 07 章・08 章 |
 | Serverless | ElastiCache Serverless | 容量の管理が不要な ElastiCache の構成 | 14 章 |

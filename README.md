@@ -7,11 +7,10 @@ Amazon ElastiCache for Valkey を使って、設計・実装・運用を行う�
 
 | 立場 | 読む範囲 | 時間の目安 |
 |---|---|---|
-| Valkey の全体像をつかみたい人 | [概要編](docs/overview.md)の ★ の節 | 30 分程度 |
-| 設計の考え方まで知りたい人 | [概要編](docs/overview.md)の全体 | 1 時間程度 |
-| 設計・実装・レビュー・運用を担当する人 | 詳細編の全章（[00 章](docs/00-introduction.md)から） | — |
+| Valkey の全体像をつかみたい人 | [01 章](docs/01-what-is-valkey.md) | 30 分程度 |
+| 設計・実装・レビュー・運用を担当する人 | 全章（[00 章](docs/00-introduction.md)から） | — |
 
-## 詳細編
+## 目次
 
 ### 第1部 基礎
 
