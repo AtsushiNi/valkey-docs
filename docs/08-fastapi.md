@@ -41,6 +41,7 @@ flowchart LR
 | ElastiCache ノードベース（クラスターモード無効） | `Redis` | プライマリエンドポイント（読み取り専用ならリーダーエンドポイントも使える） |
 | ローカルの単一ノード（Docker Compose） | `Redis` | `localhost` など |
 
+クラスターでは、どのシャードに送るかをクライアントが決める必要があるため、`RedisCluster` を使います（理由は 13 章「クライアントが振り分けを担う」）。
 `Redis` と `RedisCluster` は、コマンドのメソッドはほぼ同じですが、次の点が違います。
 
 | 項目 | `Redis` | `RedisCluster` |
