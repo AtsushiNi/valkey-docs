@@ -138,7 +138,9 @@
 - redis-py と valkey-json / valkey-search の組み合わせでの動作
 - 東京リージョンの単価
 - ElastiCache Serverless で複数の DB を使えるか（`SELECT` はサポート対象だが、DB の数や設定方法の記載がない）→ 14 章で確認
-- redis-py のクラスター用クライアントで DB 0 以外を使えるか → 08 章で確認
+- ~~redis-py のクラスター用クライアントで DB 0 以外を使えるか~~ → 確認済み: `RedisCluster` は `db` が 0 以外だと例外を出す（08 章に記載）
+- （08 章）`RedisCluster` で Valkey 独自のコマンド（DELIFEQ など）を `execute_command` で呼んだときに、正しいノードに送られるか
+- （08 章）非同期版の `RedisCluster` の `scan_iter` が全プライマリをたどるか、`mget_nonatomic` があるか
 - （07 章）valkey-search の TEXT が日本語を単語に区切れるか（形態素解析の有無）
 - （07 章）redis-py（RESP3 / protocol=2）と valkey-search・valkey-json の組み合わせの実機での動作
 - （07 章）ElastiCache 9.0 / 9.1 の valkey-search で使えるオプションと、GitHub の最新ドキュメントとの差
