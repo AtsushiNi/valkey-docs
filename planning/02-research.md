@@ -137,3 +137,5 @@
 - ElastiCache における Valkey のサポート終了の方針
 - redis-py と valkey-json / valkey-search の組み合わせでの動作
 - 東京リージョンの単価
+- ElastiCache Serverless で複数の DB を使えるか（`SELECT` はサポート対象だが、DB の数や設定方法の記載がない）→ 14 章で確認
+- redis-py のクラスター用クライアントで DB 0 以外を使えるか → 08 章で確認
