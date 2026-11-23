@@ -153,7 +153,7 @@ Valkey には、0 から始まる番号の付いた「DB」があり、キーの
 |---|---|
 | ElastiCache ノードベース（クラスターモード無効） | 使える（既定で 16 個） |
 | ElastiCache ノードベース（クラスターモード有効） | Valkey 9.0 以降で使える。DB の数（`cluster-databases`）は**クラスターを作るときにしか設定できない** |
-| ElastiCache Serverless | `SELECT` は使える。DB の間でキーを移す `MOVE`、DB を入れ替える `SWAPDB` は使えない |
+| ElastiCache Serverless | Valkey 9.0 以降で使える（最大 1,024 個）。ただし、DB の間でキーを移す `MOVE`、DB を入れ替える `SWAPDB` は使えない |
 
 複数の DB を使う場合は、次の点に注意が必要です。
 

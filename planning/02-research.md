@@ -137,7 +137,7 @@
 - ElastiCache における Valkey のサポート終了の方針
 - redis-py と valkey-json / valkey-search の組み合わせでの動作
 - 東京リージョンの単価
-- ElastiCache Serverless で複数の DB を使えるか（`SELECT` はサポート対象だが、DB の数や設定方法の記載がない）→ 14 章で確認
+- ~~ElastiCache Serverless で複数の DB を使えるか~~ → 確認済み: Valkey 9.0 以降、最大 1,024 個（02 章に反映）
 - ~~redis-py のクラスター用クライアントで DB 0 以外を使えるか~~ → 確認済み: `RedisCluster` は `db` が 0 以外だと例外を出す（08 章に記載）
 - （08 章）`RedisCluster` で Valkey 独自のコマンド（DELIFEQ など）を `execute_command` で呼んだときに、正しいノードに送られるか
 - （08 章）非同期版の `RedisCluster` の `scan_iter` が全プライマリをたどるか、`mget_nonatomic` があるか
